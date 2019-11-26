@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Menu demonstration page</title>
+</head>
+<body>
+	<div class="small-menu">
+     <form>
+          <select name="URL" onchange="window.location.href=this.form.URL.options[this.form.URL.selectedIndex].value">
+              <option value="blog.html">My Blog</option>
+              <option value="home.html">My Home Page</option>
+              <option value="tutorials.html">My Tutorials</option>
+          </select>
+     <form>
+</div>
+
+			<div class="large-menu">
+			     <ul>
+			          <li>
+			               <a href="blog.html">My Blog</a>
+			          </li>
+			          <li>
+			               <a href="home.html">My Home Page</a>
+			          </li>
+			          <li>
+			               <a href="tutorials.html">My Tutorials</a>
+			          </li>
+			     </ul>
+			</div>
+
+		<div class="content">
+     			<p>Loremipsum dolor sitamet, consecteturadipiscingelit…</p>
+		</div>
+</body>
+</html>
